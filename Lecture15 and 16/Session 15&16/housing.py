@@ -2,7 +2,8 @@ import uvicorn
 from fastapi import FastAPI
 import pickle
 app = FastAPI()
-pickle_in = open("/Users/shridharmankar/Complete Data Science Basics To Advanced/regressor.pkl","rb")
+# pickle_in = open("/Users/shridharmankar/Complete Data Science Basics To Advanced/regressor.pkl","rb")
+pickle_in = open("G:\\5 minutes Fullstack Data Science and AI\\Lecture15 and 16\\Session 15&16\\regressor.pkl", "rb")
 model=pickle.load(pickle_in)
 
 @app.get('/')
