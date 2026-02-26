@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deployment using Flask</title>
+</head>
+
+<body>
+    <div class="abc">
+        <h1>Predict The Species</h1>
+
+        <form action="{{ url_for('predict') }}" method="POST">
+            <input type="number" step="any" name="sepal_length" placeholder="Enter sepal length" required><br><br>
+            <input type="number" step="any" name="sepal_width" placeholder="Enter sepal width" required><br><br>
+            <input type="number" step="any" name="petal_length" placeholder="Enter petal length" required><br><br>
+            <input type="number" step="any" name="petal_width" placeholder="Enter petal width" required><br><br>
+            <input type="submit" value="Predict">
+        </form>
+
+        <h2>{{ prediction_text }}</h2>
+
+    </div>
+</body>
+
+</html>
