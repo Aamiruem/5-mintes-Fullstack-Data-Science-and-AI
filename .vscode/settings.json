@@ -1,9 +1,9 @@
 {
     "python-envs.defaultPackageManager": "ms-python.python:conda",
-    "python-envs.pythonProjects": [],
     "workbench.colorCustomizations": {
         "terminal.foreground": "#07cd21",
         "statusBar.noFolderForeground": "#FCFBFB",
         "statusBar.noFolderBackground": "#332C26"
-    }
+    },
+    "python-envs.defaultEnvManager": "ms-python.python:conda"
 }
