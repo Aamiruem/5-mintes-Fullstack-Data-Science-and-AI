@@ -1,9 +1,9 @@
 import uvicorn
-import tensorflow as tf
-from tensorflow.python import keras
-from tensorflow.python.keras import models
-from tensorflow.python.keras.models import Sequential
-from sklearn.model_selection import train_test_split
+import tensorflow as tf # pyright: ignore[reportMissingModuleSource]  # noqa: F401
+from tensorflow.python import keras # type: ignore
+from tensorflow.python.keras import models # type: ignore  # noqa: F401
+from tensorflow.python.keras.models import Sequential # type: ignore  # noqa: F401
+from sklearn.model_selection import train_test_split  # noqa: F401
 from fastapi import FastAPI, File, UploadFile
 from io import BytesIO
 from PIL import Image
@@ -25,13 +25,13 @@ async def predict1(
     
     y_train = train.iloc[:, 0]
     X_train = train.iloc[:, 1:]
-    y_test = test.iloc[:, 0]
+    y_test = test.iloc[:, 0]  # noqa: F841
     X_test = test.iloc[:, 1:]
 
     X_train = X_train / 255
     X_test = X_test / 255
     X_train_flattened = X_train.values.reshape(len(X_train), 28*28)
-    X_test_flattened = X_test.values.reshape(len(X_test), 28*28)
+    X_test_flattened = X_test.values.reshape(len(X_test), 28*28)  # noqa: F841
 
 
     model = keras.Sequential([
