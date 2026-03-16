@@ -2,7 +2,7 @@ CREATE TABLE salary (ID INT, amount INT, primary key (ID));
 
 CREATE TRIGGER total BEFORE INSERT ON salary
 FOR EACH ROW SET @sum = @sum + NEW.amount;
-       
+    
 SET @sum = 0;
 
 INSERT INTO salary VALUES(1,50000);

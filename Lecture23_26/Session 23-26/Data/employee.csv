@@ -1,6 +1,6 @@
 emp_id,emp_name,location,joining_date,score,job_domain,language_id
-1,shridhar,maharashtra,2022,9.2,marketing,4
-2,rajendra,punjab,2021,7.3,web development,3
+1,kamran,Bihar,2022,9.2,marketing,4
+2,Aamir,punjab,2021,7.3,web development,3
 3,manisha,maharashtra,2013,6,Sales,4
 4,pooja,punjab,2023,5,web development,3
 5,parth,maharashtra,2022,7,web development,4
