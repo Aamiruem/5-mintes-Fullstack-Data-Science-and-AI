@@ -15,8 +15,8 @@ create table student.academic(
             (2,'B','GOOD'),
             (3,'C','GOOD');
             
-	 SELECT student_id, GROUP_CONCAT( remarks ) as "REMARK", COUNT(*) as 'Number of remarks' 
-	 FROM student.academic group by student_id;
-     
-     SELECT student_id, GROUP_CONCAT( DISTINCT remarks ) as "REMARK",COUNT(*) as 'Number of remarks'
-	 FROM student.academic group by student_id;
+	SELECT student_id, GROUP_CONCAT( remarks ) as "REMARK", COUNT(*) as 'Number of remarks' 
+	FROM student.academic group by student_id;
+    
+    SELECT student_id, GROUP_CONCAT( DISTINCT remarks ) as "REMARK",COUNT(*) as 'Number of remarks'
+	FROM student.academic group by student_id;
