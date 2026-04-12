@@ -18,7 +18,7 @@ st.video("abc.mkv")
 
 st.checkbox('checkbox')
 st.button('Click button')
-st.radio('Pick your city',['Pune','Mumbai','delhi','surat'])
+st.radio('Pick your city',['Pune','Mumbai','delhi','Bangalore'])
 st.selectbox('Pick your city',['Pune','Mumbai','delhi','surat'])
 st.multiselect('Pick favourite sports',['cricket', 'football', 'basketball'])
 st.select_slider('Give a Remark', ['Bad', 'Good', 'Excellent'])
