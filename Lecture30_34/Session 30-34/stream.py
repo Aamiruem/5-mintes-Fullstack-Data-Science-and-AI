@@ -3,16 +3,17 @@ import pandas as pd
 import numpy as np
 import time
 
- 
-st.title("5 Minutes Engineering(Title)")
-st.header("5 Minutes Engineering(Header)")
-st.subheader("5 Minutes Engineering(Sub-Header)")
-st.write("5 Minutes Engineering(Text)")
-st.markdown("5 Minutes Engineering(Markdown)")
-st.caption("5 Minutes Engineering(Caption)")
+
+st.title("Apna Technology(Title)")
+st.header("Apna Technology(Header)")
+st.subheader("Apna Technology(Sub-Header)")
+st.write("Apna Technology(Text)")
+st.markdown("Apna Technology(Markdown)")
+st.caption("Apna Technology(Caption)")
 
 st.image("xyz.jpg")
 st.audio("speech.wav")
+# st.audio("speech.mp3")
 st.video("abc.mkv")
 
 st.checkbox('checkbox')
@@ -50,7 +51,7 @@ st.warning("Warning")
 st.info("Information")
 st.exception(RuntimeError("RuntimeError exception"))
 
-st.sidebar.title("5 Minutes Engineering")
+st.sidebar.title("Apna Technology")
 st.sidebar.image("xyz.jpg")
 
 df = pd.DataFrame(np.random.randn(50, 20), columns=("col %d" % i for i in range(20)))
@@ -70,8 +71,7 @@ col3.metric("Humidity", "86%", "4%")
 prompt = st.chat_input("Say something")
 if prompt:
     st.write(f"User has sent the following prompt: {prompt}")
-    
-    
+
 
 with st.status("Step 1"):
     st.write("Step 2")
@@ -104,5 +104,4 @@ with st.chat_message("user"):
 
 
 
-
-
+# streamlit run stream.py (terminal command)
