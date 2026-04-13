@@ -5,5 +5,8 @@
         "statusBar.noFolderForeground": "#FCFBFB",
         "statusBar.noFolderBackground": "#332C26"
     },
-    "python-envs.defaultEnvManager": "ms-python.python:conda"
+    "python-envs.defaultEnvManager": "ms-python.python:conda",
+    "cSpell.words": [
+        "huggingfacehub"
+    ]
 }
