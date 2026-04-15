@@ -2,17 +2,8 @@
     "python-envs.defaultPackageManager": "ms-python.python:conda",
     "workbench.colorCustomizations": {
         "terminal.foreground": "#07cd21",
-        "titleBar.activeForeground": "#75E7C7",
-        "titleBar.activeBackground": "#594f46dd",
-        "titleBar.inactiveForeground": "#2DE0AF",
-        "titleBar.inactiveBackground": "#000000",
         "statusBar.noFolderForeground": "#FBFBFA",
-        "statusBar.noFolderBackground": "#5A4F44",
-        "activityBar.background": "#4d433aaa",
-        "statusBar.background": "#5A4F44",
-        "statusBar.foreground": "#FBFBFA",
-        "statusBar.debuggingBackground": "#5A4F44",
-        "statusBar.debuggingForeground": "#FBFBFA"
+        "statusBar.noFolderBackground": "#5A4F44"
     },
     "python-envs.defaultEnvManager": "ms-python.python:conda",
     "cSpell.words": [
